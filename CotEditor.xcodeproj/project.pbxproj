@@ -2395,7 +2395,7 @@
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1510;
-				ORGANIZATIONNAME = "CotEditor Project";
+				ORGANIZATIONNAME = "CotEditor Project / Hardy Steffen";
 				TargetAttributes = {
 					2A3E847D1D07296200070A54 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -3699,9 +3699,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5454B92B243C8257009275BC /* UI-Tests.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 56ULVRLK6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.CotEditorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajhs.CotEditorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = CotEditor;
 			};
@@ -3725,13 +3726,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 631;
+				CURRENT_PROJECT_VERSION = 632;
+				DEVELOPMENT_TEAM = 56ULVRLK6L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = CotEditor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CotEditor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				MARKETING_VERSION = "4.7.5-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
+				MARKETING_VERSION = "4.7.5-alpha-ajhs";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajhs.CotEditor;
 				PRODUCT_NAME = CotEditor;
 			};
 			name = Debug;
@@ -3742,13 +3745,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 631;
+				CURRENT_PROJECT_VERSION = 632;
+				DEVELOPMENT_TEAM = 56ULVRLK6L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = CotEditor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CotEditor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				MARKETING_VERSION = "4.7.5-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
+				MARKETING_VERSION = "4.7.5-alpha-ajhs";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajhs.CotEditor;
 				PRODUCT_NAME = CotEditor;
 			};
 			name = Release;
@@ -3758,9 +3763,10 @@
 			baseConfigurationReference = 5454B92C243C8257009275BC /* Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56ULVRLK6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajhs.CotEditorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CotEditor";
 			};
@@ -3785,13 +3791,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 631;
+				CURRENT_PROJECT_VERSION = 632;
+				DEVELOPMENT_TEAM = 56ULVRLK6L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = CotEditor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CotEditor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				MARKETING_VERSION = "4.7.5-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
+				MARKETING_VERSION = "4.7.5-alpha-ajhs";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajhs.CotEditor;
 				PRODUCT_NAME = CotEditor;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SPARKLE";
 			};
@@ -3803,12 +3811,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "Accent Color";
-				CURRENT_PROJECT_VERSION = 631;
+				CURRENT_PROJECT_VERSION = 632;
+				DEVELOPMENT_TEAM = 56ULVRLK6L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = CotEditor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CotEditor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				MARKETING_VERSION = "4.7.5-alpha";
+				MARKETING_VERSION = "4.7.5-alpha-ajhs";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
 				PRODUCT_NAME = CotEditor;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SPARKLE";
