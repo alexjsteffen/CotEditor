@@ -3819,7 +3819,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CotEditor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				MARKETING_VERSION = "4.7.5-alpha-ajhs";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajhs.CotEditor;
 				PRODUCT_NAME = CotEditor;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SPARKLE";
 			};
